@@ -1,5 +1,5 @@
 # gwpatternlab
-Slight modifications to the node version of patternlab https://github.com/pattern-lab/patternlab-node to kickstart living styleguides for https://github.com/gravityworks
+Slight modifications to the node version of patternlab https://github.com/pattern-lab/patternlab-node to kickstart living styleguides for https://github.com/gravityworks. gwpatternlab is currently set to work with patternlab-node 0.8.1 but can/should be updated with minimal effort to use the latest version of patternlab.
 
 ## Install Instructions
 1. <strong>Clone the node version of patternlab</strong> https://github.com/pattern-lab/patternlab-node
