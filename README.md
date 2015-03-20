@@ -10,15 +10,14 @@ Slight modifications to the node version of patternlab https://github.com/patter
 
 ## Gulp Tasks
 ```
-gulp serve
-```
-Serve the patternlab locally.
-
-```
 gulp
 ```
 Builds patternlab, copies the relevant files, serves patternlab locally, starts a livereload server, runs watch
 
+```
+gulp serve
+```
+Serve the patternlab locally.
 
 ## Things to take note of:
 1. Try to keep all of your source files (css, svg, js, etc) in /source. Output your build versions to /public.
