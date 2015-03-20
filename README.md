@@ -19,6 +19,12 @@ gulp serve
 ```
 Serve the patternlab locally.
 
-## Things to take note of:
+## TODO:
+1. Configure livereload properly. Currently it only notifies livereload on html/css changes.
+2. Setup imaging tasks (svg, sprites, minification, etc)
+3. Setup JS concat/uglify tasks.
+4. Pipe assets from /source to /build properly. Currently only our CSS is piping there.
+
+### Things to take note of:
 1. Try to keep all of your source files (css, svg, js, etc) in /source. Output your build versions to /public.
 2. Don't edit the files in /public/styleguide. Instead, edit the build files inside of /source.
