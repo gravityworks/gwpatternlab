@@ -1,0 +1,38 @@
+{
+  "name": "gwpatternlab",
+  "description": "Pattern Lab is a collection of tools to help you create atomic design systems. This is the node command line interface (CLI).",
+  "version": "0.8.1",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "diveSync": "^0.2.1",
+    "express": "^4.12.2",
+    "fs-extra": "^0.14.0",
+    "glob": "^4.3.5",
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load": "^0.1.1",
+    "gulp-nodeunit": "0.0.5",
+    "html-entities": "^1.1.1",
+    "mustache": "^1.0.0",
+    "tiny-lr": "^0.1.5"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Grunt",
+    "Javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pattern-lab/patternlab-node.git"
+  },
+  "author": "Brian Muenzenmeyer",
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "engines": {
+    "node": ">=0.1"
+  }
+}
